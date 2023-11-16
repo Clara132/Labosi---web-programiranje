@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Add the border using inline property
+    </title>
+    <style>
+        aside {
+            float: right;
+            background-color: white;
+            width: 15em;
+            padding: 1em;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <section style="border:red; border-width:5px; border-style:solid;">
+        <h1>PRVA LABORATORIJSKA VJEŽBA</h1>
+        <p>Osnove HTML-a</p>
+    </section>
+    <section style="border:red; border-width:5px; border-style:solid;">
+        <nav>
+            <ul>
+                <li><a href="https://www.ferit.unios.hr" title="FERIT">Ferit</a></li>
+                <li>Lokalna veza</li>
+            </ul>
+        </nav>
+    </section>
+    <section style="border:red; border-width:5px; border-style:solid;">
+        <article style="border:black; border-width:5px; border-style:solid;">
+            <h2>Članak 1 u prvom odjeljku</h2>
+            <p>Ovo je tekst prvog članka koji se i sam nalazi u odjeljku.</p>
+        </article>
+        <article style="border:black; border-width:5px; border-style:solid;">
+            <h2>Članak 2 u prvom odjeljku</h2>
+            <p>Ovo je tekst drugog članka koji se i sam nalazi u odjeljku.</p>
+        </article>
+        <aside style="border:black; border-width:5px; border-style:solid;">
+            <figure>
+                <img src="Logo FERIT-a.jpg" width="157" height="50" />
+            </figure>
+            <h3>Izbornik sa strane</h3>
+            <nav>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                </ul>
+            </nav>
+        </aside>
+    </section>
+    <section style="border:red; border-width:5px; border-style:solid;">
+        <article>
+            <h1>Naslov članka 3</h1>
+            <h3>Podnaslov članka 3</h3>
+            <ul>
+                <li>Stavka 1</li>
+                <li>Stavka 2</li>
+                <li>Stavka 3</li>
+                <li>Stavka 4</li>
+                <li>Stavka 5</li>
+            </ul>
+            <figure>
+                <img src="Sveučilište.jpg" alt="Opis slike">
+                <figcaption>Sveučilište Josipa Jurja Strossmayera</figcaption>
+            </figure>
+            <p><a href="http://www.unios.hr/" target="_blank">Sveučilište Josipa Jurja Strossmayera u Osijeku</a></p>
+        </article>
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Red 1, ćelija 1</td>
+                <td>Red 1, ćelija 2</td>
+                <td>Red 1, ćelija 3</td>
+            </tr>
+            <tr>
+                <td>Red 2, ćelija 2</td>
+                <td>Red 2, ćelija 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Red 3, ćelija 1</td>
+            </tr>
+        </table>
+    </section>
+    <footer style="border:red; border-width:5px; border-style:solid;">
+        <p>Kada je stranica ...</p>
+    </footer>
+</body>
+</html>
