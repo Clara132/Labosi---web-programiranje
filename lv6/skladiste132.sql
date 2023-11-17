@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 17, 2023 at 08:39 AM
+-- Generation Time: Nov 17, 2023 at 09:21 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.1.32
 
@@ -37,6 +37,13 @@ CREATE TABLE `korisnici` (
   `lozinka` varchar(20) COLLATE utf8mb4_croatian_ci NOT NULL,
   `uloga` varchar(20) COLLATE utf8mb4_croatian_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_croatian_ci;
+
+--
+-- Dumping data for table `korisnici`
+--
+
+INSERT INTO `korisnici` (`id`, `ime`, `prezime`, `e-mail`, `k_ime`, `lozinka`, `uloga`) VALUES
+(2147483647, 'Clara', 'Hancock', 'clara.hancock132@gmail.com', 'clara', '123321', 'admin');
 
 -- --------------------------------------------------------
 
